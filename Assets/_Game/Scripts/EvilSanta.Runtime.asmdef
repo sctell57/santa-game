@@ -1,0 +1,31 @@
+{
+    "name": "EvilSanta.Runtime",
+    "rootNamespace": "EvilSanta",
+    "references": [
+        "Unity.InputSystem",
+        "Unity.Cinemachine"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "EVILSANTA_HAS_INPUT",
+        "EVILSANTA_HAS_CM3"
+    ],
+    "versionDefines": [
+        {
+            "name": "com.unity.inputsystem",
+            "expression": "1.7.0",
+            "define": "EVILSANTA_HAS_INPUT"
+        },
+        {
+            "name": "com.unity.cinemachine",
+            "expression": "3.0.0",
+            "define": "EVILSANTA_HAS_CM3"
+        }
+    ],
+    "noEngineReferences": false
+}
