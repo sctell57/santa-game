@@ -1,0 +1,42 @@
+{
+    "name": "EvilSanta.Editor",
+    "rootNamespace": "EvilSanta.EditorTools",
+    "references": [
+        "EvilSanta.Runtime",
+        "Unity.InputSystem",
+        "Unity.Cinemachine",
+        "Unity.RenderPipelines.Core.Runtime",
+        "Unity.RenderPipelines.Universal.Runtime"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "EVILSANTA_HAS_INPUT",
+        "EVILSANTA_HAS_CM3",
+        "EVILSANTA_HAS_URP"
+    ],
+    "versionDefines": [
+        {
+            "name": "com.unity.inputsystem",
+            "expression": "1.7.0",
+            "define": "EVILSANTA_HAS_INPUT"
+        },
+        {
+            "name": "com.unity.cinemachine",
+            "expression": "3.0.0",
+            "define": "EVILSANTA_HAS_CM3"
+        },
+        {
+            "name": "com.unity.render-pipelines.universal",
+            "expression": "17.0.0",
+            "define": "EVILSANTA_HAS_URP"
+        }
+    ],
+    "noEngineReferences": false
+}
